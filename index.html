@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        
+        <script src="https://kit.fontawesome.com/458fc00363.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Public/css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Odibee+Sans&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Boca Juniors - Potrero digital</title>
+    </head>
+    <body>
+        <!--Main contendrá todo el sitio web.-->
+        <main role="main">
+            <!--El header contendrá el menú-->
+            <header role="header" class="headercontainer">
+                <!--Menú-->
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--first-color);">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="Public/Imagenes/logo.jpg" alt="No image" width="40" class="d-inline-block align-text-top">
+                        </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="navbar-nav ms-auto">
+                                <a class="nav-link" href="#club">Sobre nosotros</a>
+                                <a class="nav-link" href="#futbol">Servicios</a>
+                                <a class="nav-link" href="https://www.bocajuniors.com.ar/el-club/campus-xeneize-contacto?lang=en" target="_blank">Contacto</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!--Fin del menú-->
+            </header>
+            <!--Fin del header-->
+
+            <!--Este section contendrá el carrousel--> 
+            <section role="carrousel-section" id="futbol" role="carrousel">
+                <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="Public/Imagenes/diapo-1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="title">Boca se juega la clasificación a la copa!</h5>
+                                </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="Public/Imagenes/diapo-2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="title">La Bombonera</h5>
+                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Public/Imagenes/diapo-3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="title">Tevez, presente en la conferencia de prensa 2019</h5>
+                                </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previo</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+                
+            </section>
+            <!--Fin del section-->
+
+            <!--Inicio del section que contendrá las cards-->
+            <section role="cards-section" id="club" class="container-fluid cards-background">
+                <div class="row">
+                    <!--Aplico justify-content-center a todas las columnas para que se centren-->
+                    <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
+                        <!--Cada CARD será un articulo,
+                        que estará dividida por su header y el cuerpo-->
+                        <article class="cards card-A">
+                            <header class="card-header">
+                                <div class="circle-icon">
+                                    <i class="fas fa-hourglass-half"></i>
+                                </div>
+                                <h3 class="title">Historia</h3>
+                            </header>
+                            <div class="card-text">
+                                <p class="text">
+                                 Boca nació bajo  la cultura del trabajo, del esfuerzo. Es la identidad que lo atraviesa, que le da la voluntad necesaria para creer. Así lo marca su historia, desde la fundación hasta la actualidad.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
+                        <article class="cards card-B">
+                            <header class="card-header">
+                                <div class="circle-icon">
+                                    <i class="fas fa-landmark"></i>
+                                </div>
+                                <h3 class="title">Museo</h3>
+                            </header>
+                            <div class="card-text">
+                                <p class="text">
+                                    El museo fue inaugurado oficialmente el 3 de abril de 2001 en el mismo  se expone de manera permanente un conjunto de memorabilia deportiva, incluyendo camisetas de todas las épocas del club, una sección dedicada a Diego Maradona, fotografías de las giras mundiales del club, entre otros.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
+                        <article class="cards card-C">
+                            <header class="card-header">
+                                <div class="circle-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h3 class="title">Fundación</h3>
+                            </header>
+                            <div class="card-text">
+                                <p class="text">
+                                    La Fundación de Boca gira en torno de trabajar en forma conjunta con socios, 
+                                    hinchas y deportistas para hacer de Boca Juniors un club mas inclusivo 
+                                    y comprometido con las distintas problemáticas del país.                              
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
+                        <article class="cards card-D">
+                            <header class="card-header">
+                                <div class="circle-icon">
+                                    <i class="fas fa-dna"></i>
+                                </div>
+                                <h3 class="title">PASIÓN</h3>
+                            </header>
+                            <div class="card-text">
+                                <p class="text">
+                                    Y como dice la canción "boca es la pasion..se lleva en la sangre y en el corazon, siempre vamo' a estar... en las buenas y en las malas te vamo´a alentar.."                          
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!--Fin del section de cards-->
+            <!--Inicio del footer-->
+            <footer role="footer" class="container-fluid footer-content">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="d-none d-lg-block col-md-5 offset-1 d-flex align-items-center">
+                        <div class="logoimg">
+                            <a href="" target="_blank">    
+                                <img class="imglogo" src="Public/Imagenes/logo-tienda.jpg" alt="No image"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-5 d-flex justify-content-center">
+                        <div class="social-networks d-flex justify-content-evenly">
+                            <a href="https://www.facebook.com/BocaJuniors/" target="_blank">
+                                <div class="circle-social fb">
+                                        <i class="fab fa-facebook-f"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/bocajrsoficial" target="_blank">
+                                <div class="circle-social insta">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/BocaJrsOficial" target="_blank">
+                                <div class="circle-social tw">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCRtB_RAtKH72CgVAKHFgdIw" target="_blank">
+                                <div class="circle-social yt">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+                <p>Derechos reservados 2021 - Hernandez Mariana</p>
+            </footer>
+            <!--Fin de footer-->
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
