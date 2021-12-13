@@ -17,22 +17,46 @@
             <!--El header contendrá el menú-->
             <header role="header" class="headercontainer">
                 <!--Menú-->
-                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--first-color);">
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--second-color);">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
-                            <img src="Public/Imagenes/logo.jpg" alt="No image" width="40" class="d-inline-block align-text-top">
+                            <img src="Public/Imagenes/logo.png" alt="No image" width="40" class="d-inline-block align-text-top">
                         </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <div class="navbar-nav ms-auto">
-                                <a class="nav-link" href="#club">Sobre nosotros</a>
-                                <a class="nav-link" href="#futbol">Servicios</a>
-                                <a class="nav-link" href="https://www.bocajuniors.com.ar/el-club/campus-xeneize-contacto?lang=en" target="_blank">Contacto</a>
+                        <div class="collapse navbar-collapse" id="navbarNav" >
+                            <div class="navbar-nav ms-auto"  > 
+                                <a class="nav-link"style="color:var(--first-color);" href="#club">Sobre el club</a>
+                                <a class="nav-link"style="color:var(--first-color);" href="#Contacto">Contacto</a>
+                                <a class="nav-link" style="color:var(--first-color);"href="#hinchas">Los hinchas</a>
                                 
                             </div>
                         </div>
+
+                        <!--<div class="social-networks d-flex justify-content-evenly">
+                            <a href="https://www.facebook.com/BocaJuniors/" target="_blank">
+                                <div class="circle-social fb">
+                                        <i class="fab fa-facebook-f"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/bocajrsoficial" target="_blank">
+                                <div class="circle-social insta">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/BocaJrsOficial" target="_blank">
+                                <div class="circle-social tw">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCRtB_RAtKH72CgVAKHFgdIw" target="_blank">
+                                <div class="circle-social yt">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                            </a>
+                        </div>-->
+                    </div> 
                     </div>
                 </nav>
                 <!--Fin del menú-->
@@ -46,15 +70,22 @@
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="Public/Imagenes/diapo-1.jpg" class="d-block w-100" alt="...">
+                            <img src="Public/Imagenes/c.jpeg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="title">Boca se juega la clasificación a la copa!</h5>
+                                    <h5 class="title">BOCA CAMPEÓN</h5>
                                 </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                       <div class="carousel-item" data-bs-interval="2000">
+                            <img src="Public/Imagenes/campeon.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="title">BOCA CAMPEÓN</h5>
+                                </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
                             <img src="Public/Imagenes/diapo-2.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="title">La Bombonera</h5>
@@ -80,10 +111,10 @@
             </section>
             <!--Fin del section-->
 
-            <!--Inicio del section que contendrá las cards-->
+            <!-- section que contendrá las cards-->
             <section role="cards-section" id="club" class="container-fluid cards-background">
                 <div class="row">
-                    <!--Aplico justify-content-center a todas las columnas para que se centren-->
+                    <!--Centro las columnas-->
                     <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
                         <!--Cada CARD será un articulo,
                         que estará dividida por su header y el cuerpo-->
@@ -151,12 +182,109 @@
                 </div>
             </section>
             <!--Fin del section de cards-->
+           
+           
+
+
+
+
+
+
+            <section class="page-section bg-primary text-white mb-0"  id="hinchas">
+                <div class="container" >
+                    <!-- About Section Heading-->
+                    <h2 class="page-section-heading text-center text-uppercase text-white">Día del hincha</h2>
+                    <!-- Icon Divider-->
+                 
+                    <!-- About Section Content-->
+                    <div class="row">
+                        <div class="col-lg-4 ml-auto">
+                            <p class="lead">El 12 de diciembre se festeja el Día del Hincha de Boca.La gente festeja cada año en la bombonera</p>
+                        </div>
+                        <div class="col-lg-4 mr-auto">
+                            <p class="lead">Se optó por el día doce del decimosegundo mes del año, desde 2012 -es decir, el 12/12/12- para darle a su hinchada el lugar que se merecen</p>
+                        </div>
+                        <div class="col-lg-4 mr-auto">
+                            <p class="lead">La Primera, la Reserva y el Femenino, que se consagraron en estas últimas semanas, levantaron sus títulos en La Bombonera y festejaron el Día del Hincha de Boca.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>    
+           
+           
+        <!--- PRUEBAAAA -->
+            <section class="page-section" id="contact">
+                <div class="container">
+                    <!--Contact Section Heading-->
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
+                    <!-- Icon Divider-->
+                    
+                    <!-- Contact Section Form-->
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                           
+                            <form >
+                                <div >
+                                    <div >
+                                        <label>Nombre</label>
+                                        <input class="form-control" id="name" type="text" placeholder="Nombre" />
+                                      
+                                    </div>
+                                </div>
+                                <div >
+                                    <div >
+                                        <label>Email</label>
+                                        <input class="form-control" id="email" type="email" placeholder="Email"
+                                             />
+                                       
+                                    </div>
+                                </div>
+                                <div >
+                                    <div >
+                                        <label>Teléfono</label>
+                                        <input class="form-control" id="phone" type="tel" placeholder="Teléfono"
+                                             />
+                                        
+                                    </div>
+                                </div>
+                                <div >
+                                    <div >
+                                        <label>Mensaje</label>
+                                        <textarea class="form-control" id="message" rows="5" placeholder="Mensaje"
+                                            ></textarea>
+                                        
+                                    </div>
+                                </div>
+                                <br />
+                                <div id="success"></div>
+                                <div ><button class="btn btn-primary btn-xl" id="sendMessageButton"
+                                        type="submit">Enviar</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+
+
+           
+
+
+
+
+
+
+
+
+
+
             <!--Inicio del footer-->
-            <footer role="footer" class="container-fluid footer-content">
+            <footer role="footer" id="Contacto" class="container-fluid footer-content">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="d-none d-lg-block col-md-5 offset-1 d-flex align-items-center">
                         <div class="logoimg">
-                            <a href="" target="_blank">    
+                            <a href="https://www.bocashop.com.ar/" target="_blank">    
                                 <img class="imglogo" src="Public/Imagenes/logo-tienda.jpg" alt="No image"/>
                             </a>
                         </div>
@@ -169,7 +297,7 @@
                                         <i class="fab fa-facebook-f"></i>
                                 </div>
                             </a>
-                            <a href="https://www.instagram.com/bocajrsoficial" target="_blank">
+                            <a href="https://www.instagram.com/bocajrsoficial/?hl=es-la" target="_blank">
                                 <div class="circle-social insta">
                                     <i class="fab fa-instagram"></i>
                                 </div>
@@ -187,7 +315,7 @@
                         </div>
                     </div> 
                 </div>
-                <p>Derechos reservados 2021 - Hernandez Mariana</p>
+                <p class=text style="color: var(--first-color);" >  Derechos reservados 2021 - Hernandez Mariana </p>
             </footer>
             <!--Fin de footer-->
         </main>
